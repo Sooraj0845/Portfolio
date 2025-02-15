@@ -543,7 +543,7 @@ footer{
 }
 #honor2{
     width: 100%;
-    padding: 5vw;
+    padding: 8vw;
     display: flex;
     justify-content: space-between;
 }
@@ -554,6 +554,7 @@ footer{
 }
 #hlist{
     width: 60%;
+    
     /* height: 100px; */
     /* background-color: #f24343; */
 }
@@ -562,7 +563,7 @@ ul{
 }
 li{
     /* line-height: 4vw; */
-    padding-top: 4vw;
+    padding-top: 3vw;
     display: flex;
     position: relative;
     align-items: center;
@@ -574,9 +575,9 @@ li::after{
     height: 100%;
     width: 100%;
     position: absolute;
-    padding-top: 3vw;
+    /* padding-top: 3vw; */
     
-    top: 0;
+    top: 20px;
     left: 0;
 
     border-bottom: 2px solid black;
@@ -590,9 +591,15 @@ li::after{
     /* font-weight: 100; */
 }
 .t2 {
-    font-size: 3vw;
+    font-size: 2vw;
     display: flex;
-    gap: 5vw;
-    /* align-items: center; */
+    gap: 18vw;
+    align-items: center;
     /* justify-content: space-around; */
+}
+.t2 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    
 }
